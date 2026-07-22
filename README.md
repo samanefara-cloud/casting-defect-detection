@@ -59,10 +59,9 @@ python train_casting.py
 ├── oversample_rusts.py    # آزمایش oversampling (نتیجه: بی‌اثر - مستند شده برای مرجع)
 ├── augment_rusts.py       # آزمایش augmentation هدفمند (نتیجه: بی‌اثر - مستند شده برای مرجع)
 ├── requirements.txt
-├── assets/
-│   └── confusion_matrix.png, sample_prediction.png
+├── confusion_matrix.png
+├── best.pt                # وزن مدل نهایی، آماده‌ی استفاده‌ی مستقیم
 └── README.md
-```
 
 ## محدودیت‌های شناخته‌شده
 - Recall کلاس‌های `spots` (0.47) و `rusts` (0.36) برای استقرار صنعتی مستقل کافی نیست؛ نیاز به annotation guideline دقیق‌تر یا داده‌ی بیشتر دارد.
