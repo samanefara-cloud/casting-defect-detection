@@ -29,7 +29,7 @@
 | spots | 0.47 | 6,628 (18%) |
 | rusts | 0.36 | 9,076 (25%) |
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ## درس‌های کلیدی و تحلیل خطا
 
